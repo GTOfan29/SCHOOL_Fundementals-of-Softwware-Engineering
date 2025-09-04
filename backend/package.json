@@ -1,0 +1,33 @@
+{
+  "name": "restaurant-backend",
+  "version": "1.0.0",
+  "description": "Restaurant ordering system backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "mocha tests/**/*.test.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.9.0",
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.3",
+    "chai": "^4.3.7",
+    "jest": "^29.7.0",
+    "jest-mock-extended": "^4.0.0-beta1",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "sinon": "^20.0.0",
+    "supertest": "^7.1.1",
+    "ts-jest": "^29.3.4"
+  }
+}
